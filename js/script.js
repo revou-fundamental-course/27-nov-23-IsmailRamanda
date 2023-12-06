@@ -43,7 +43,7 @@ outputLuas.innerHTML=` L = 1/2 x a x t <br> L = 1/2 x ${a} x ${t} <br> L = ${l}<
 })
 
 
-// reset luas segitiga
+// reset luas segitiga dan keliling segitiga
 const resetLuas= document.getElementById(`reset`);
  resetLuas.addEventListener(`click`, function () {
   nilaiAlas.value="";

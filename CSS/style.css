@@ -53,23 +53,16 @@ nav a{
 nav a:hover::after{
     content: '';
     display: block;
-    border-bottom: 2px solid  #eef5ff;
+    border-bottom: 2px solid  #4d4e4f;
     width:50%;
    margin: auto;
 }
 
 nav a:hover{
-   
-    color: #ffffff;
+    font-weight: 100;
+    color: #000000;
 }
 
-nav a:active{
-    transform: matrix3d(2);
-    -webkit-transform: matrix3d(2);
-    -moz-transform: matrix3d(2);
-    -ms-transform: matrix3d(2);
-    -o-transform: matrix3d(2);
-}
 
 .menu-toggle {
     display: none;
