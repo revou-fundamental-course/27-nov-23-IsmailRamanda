@@ -17,9 +17,9 @@
             <img src="assets/logo.png" alt="Logo Katik">
             <h2>KATIK</h2>
         </section>
-        <nav>
-            <a href="kelilingSegitiga.html">KELILING SEGITIGA</a>
-            <a href="luasSegitiga.html">LUAS SEGITIGA</a>
+        <nav class="reverse">
+            <a href="index.html">LUAS SEGITIGA</a>
+            <a href="index2.html">KELILING SEGITIGA</a>
             <section class="menu-toggle">
                 <input type="checkbox" name="" id="" />
                 <span></span>
@@ -31,7 +31,7 @@
 
 
     <section class="content">
-        <h1> Luas Segitiga</h1>
+        <h1> Keliling segitiga Segitiga</h1>
         <article>
             <img src="assets/Segitiga.png" alt="Luas Segitiga">
             <section class="description">
@@ -42,22 +42,24 @@
                     alas segitiga (a), dan garis AB, AC merupakan sisi miring segitiga.
                 </p>
                 <ul>
-                    <h4>Rumus Luas Segitiga :</h4>
-                    <li>L = 1/2 x Alas x Tinggi</li>
-                    <li>L = 1/2 x BC x AO</li>
-                    <li>L = 1/2 x a x t</li>
+                    <h4>Rumus Keliling Segitiga :</h4>
+                    <li>K = Sisi Miring (AB + AC) + Alas (BC)</li>
+                    <li>K = AB + BC + CA</li>
+                    <li>K = S1 + S2 + S3</li>
                 </ul>
             </section>
 
         </article>
 
         <main>
-            <h2>Hitung Luas Segitiga</h2>
+            <h2>Hitung Keliling Segitiga</h2>
             <form action="">
-                <label for="">Alas </label>
-                <input id="alas" type="number" placeholder="Masukan Nilai Alas">
-                <label for="">Tinggi </label>
-                <input id="tinggi" type="number" placeholder="Masukan Nilai Tinggi">
+                <label for="">S1</label>
+                <input id="nilaiS1" type="number" placeholder="Masukan Nilai S1">
+                <label for="">S2 </label>
+                <input id="nilaiS2" type="number" placeholder="Masukan Nilai S2">
+                <label for="">S3</label>
+                <input id="nilaiS3" type="number" placeholder="Masukan Nilai S3">
                 <label for="">Hasil</label>
                 <section id="output"></section>
             </form>
@@ -69,6 +71,8 @@
     <footer>
         <a href="">creat by Ismail Ramanda</a>
     </footer>
+
+
     <script src="js/script.js"></script>
 </body>
 
